@@ -1,0 +1,328 @@
+<html>
+
+<head>
+    <!-- NC State Bootstrap CSS -->
+    <link href="https://cdn.ncsu.edu/brand-assets/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css" />
+    <script src="https://cdn.ncsu.edu/brand-assets/utility-bar/ub.php?googleCustomSearchCode=[INSERT CUSTOM SEARCH CODE]&placeholder=[INSERT CUSTOM SEARCH PLACEHOLDER]&maxWidth=1100&color=gray&showBrick=1"></script>
+
+    <!-- jQuery 2.1.0 -->
+    <style>
+        .padding {
+            padding: 2% 2% 2% 2%;
+        }
+
+        #myBtn {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Fixed/sticky position */
+            bottom: 20px;
+            /* Place the button at the bottom of the page */
+            right: 30px;
+            /* Place the button 30px from the right */
+            z-index: 99;
+            /* Make sure it does not overlap */
+            border: none;
+            /* Remove borders */
+            outline: none;
+            /* Remove outline */
+            background-color: red;
+            /* Set a background color */
+            color: white;
+            /* Text color */
+            cursor: pointer;
+            /* Add a mouse pointer on hover */
+            padding: 15px;
+            /* Some padding */
+            border-radius: 10px;
+            /* Rounded corners */
+            font-size: 18px;
+            /* Increase font size */
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+            /* Add a dark-grey background on hover */
+        }
+    </style>
+</head>
+
+<body class="padding">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+    <section id="ides">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col-lg-6">
+                    <img width="200px" src="../src/assets/img/vscode.png">
+                </div>
+                <div class="col-lg-6">
+                    <img width="200px" src="../src/assets/img/atom.png">
+                </div>
+            </div>
+            <div class="title">
+                <h2>Software Engineering Open Source Project Analysis: VS Code vs Atom</h2>
+                <h4>Team: c_iqopud</h4>
+                <h4>Akshay Raul, Shwetha Kalyanaraman, Jeremiah D'Souza, Bharat Sinha</h4>
+                <p>Atom Repository: <a href="https://github.com/atom/atom" target="_blank">https://github.com/atom/atom</a></p>
+                <p>Visual Studio Code Repository: <a href="https://github.com/Microsoft/vscode" target="_blank">https://github.com/Microsoft/vscode</a></p>
+            </div>
+            <div id="sections">
+                <p>
+                    <a href="#project-scope">Project Scope</a> |
+                    <a href="#unique-features">Unique Features</a> |
+                    <a href="#github-insights">Github Insights</a> |
+                    <a href="#performance">Performance</a> |
+                    <a href="#code-inspection">Code Inspection</a> |
+                    <a href="#snyk-reports">Snyk Reports</a> |
+                    <a href="#test-scripts">Test Scripts</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Project Scope-->
+    <section id="project-scope">
+        <div class="container">
+            <h3>Project Scope</h3>
+            <p>The rapid pace at which technology is advancing demands faster.
+                Programmers are provided with a wide variety of tools which provides them a way of generating complex
+                results within a short span in time. One such tool is an Integrated Development Environment or IDE. An
+                IDE provides programmers with various features and tools to assist them in their work. But with too
+                many options being presented to the end users, it could be a daunting task to select that IDE which is
+                best suited and will benefit them.
+            </p>
+            <p>This paper details a comparative analysis between two open source IDE's namely, Atom and Visual Studio
+                Code. The aim of this study is to analyse the two IDE's based on various parameters and provide a
+                conclusion at the end based on these findings. The analysis will use the following metrics in the
+                comparison : community health statistics, developer survey analysis, performance, efficiency and memory
+                utilization, security threats and intensity levels, bugs and code coverage.
+            </p>
+        </div>
+    </section>
+
+    <!-- Unique Features-->
+    <section id="unique-features">
+        <div class="container">
+            <h3>Unique Features</h3>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>VS Code</h3>
+                    <ul>
+                        <li>Visual Studio Code scores highly with developers in terms of performance, UI, rich community</li>
+                        <li>More secure and less vulnerable to threats and security attacks</li>
+                        <li>Has a larger user base and highly active community</li>
+                        <li>Has a great Azure integration</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Atom</h3>
+                    <ul>
+                        <li>Scores highly with the open source community and plugins that are easily generated and deployed</li>
+                        <li>Atom's github integration, tree view, plethora of user defined settings, vim mode, make it a great catch for backend developers and those who work a lot with git.</li>
+                        <li>Atom's maturity is apparent by the high code quality</li>
+                        <li>Has great GitHub plugins integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GitHub Insights-->
+    <section id="github-insights">
+        <div class="container">
+            <h3 class="header">GitHub Insights</h3>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Analysis of Contributors</h4>
+                    <img class="img-responsive" src="../outputs/github-insights/Analysis Of Contributors.png">
+                </div>
+                <div class="col-lg-12">
+                    <h4>Analysis of Issues</h4>
+                    <img class="img-responsive" src="../outputs/github-insights/Analysis Of Issues(Total).png">
+                </div>
+                <div class="col-lg-12">
+                    <h4>Analysis of Open Issues</h4>
+                    <img class="img-responsive" src="../outputs/github-insights/Analysis Of Open Issues(Monthly).png">
+                </div>
+                <h3 class="header">Developer Survey</h3>
+                <div>
+                    <a href="https://goo.gl/forms/CngaclthGE0W9zds2" target="_blank">Survey Form</a> |
+                    <a href="./survey/response.html" target="_blank">Survey Results</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response1.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response2.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response3.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response4.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response5.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response6.PNG">
+                </div>
+                <br><br>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response10.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response9.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response12.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response7.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response11.PNG">
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="../outputs/github-insights/Response8.PNG">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Performance-->
+    <section id="performance">
+        <div class="container">
+            <h3>Performance</h3>
+            <div class="row">
+                    <div class="col-lg-6">
+                        <h3>VS Code</h3>
+                        <ul>
+                            <li>Average Load Time for Empty Project: 2953 ms</li>
+                            <li>Average Load Time for Large Project: 3324 ms</li>
+                            <li>Average Memory Usage: 687.4 Mb</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Atom</h3>
+                        <ul>
+                            <li>Average Load Time for Empty Project: 3218 ms</li>
+                            <li>Average Load Time for Large Project: 3865 ms</li>
+                            <li>Average Memory Usage: 524.6 Mb</li>
+                        </ul>
+                    </div>
+                </div>
+            <h3>Atom</h3>
+            <div class="col-lg-12 padding">
+                <img class="img-responsive" src="../outputs/atom/atom-openfile-audit.png">
+            </div>
+            <div class="col-lg-12 padding">
+                <img class="img-responsive" src="../outputs/atom/atom-openfile-audit.png">
+            </div>
+            <h3>VS Code</h3>
+            <div class="col-lg-12 padding">
+                <img class="img-responsive" src="../outputs/vscode/vscode-openfile-audit.png">
+            </div>
+            <div class="col-lg-12 padding">
+                <img class="img-responsive" src="../outputs/vscode/vscode-openfolder-audit.png">
+            </div>
+
+        </div>
+    </section>
+    <!-- Code Inspection-->
+    <section id="code-inspection">
+        <div class="container">
+            <h3>Code Inspection</h3>
+            <p><a href="../src/atom/inspection/">Code Inspection for Atom</a></p>
+            <p><a href="../src/vscode/inspection/">Code Inspection for VS Code</a></p>
+        </div>
+    </section>
+
+    <!-- Codacy Reports-->
+    <section id="snyk-reports">
+            <div class="container">
+                <h3>Codacy Reports</h3>
+                <div class="col-lg-12 padding">
+                        <img class="img-responsive" src="../outputs/atom/atomCodacyIssues.PNG">
+                    </div>
+                    <div class="col-lg-12 padding">
+                        <img class="img-responsive" src="../outputs/atom/atomCodacyIssuesDashboard.PNG">
+                    </div>
+                    <h4>VS Code</h4>
+                    <div class="col-lg-12 padding">
+                        <img class="img-responsive" src="../outputs/vscode/vscodeCodacyIssues.PNG">
+                    </div>
+                    <div class="col-lg-12 padding">
+                        <img class="img-responsive" src="../outputs/vscode/vscodeCodacyIssuesDashboard.PNG">
+                    </div>
+            </div>
+        </section>
+    <!--Snyk Reports-->
+    <section id="snyk-reports">
+        <div class="container">
+            <h3>Snyk Reports</h3>
+            <ul>
+                <li>
+                    Atom
+                </li>
+                <p><a href="../outputs/Snyk-tool/Atom/Reports of Vulnerability/Report-apm_package_json.pdf">Report-apm_package_json</a></p>
+                <p><a href="../outputs/Snyk-tool/Atom/Reports of Vulnerability/Report_atom_package.pdf">Report_atom_package.pdf</a></p>
+                <p><a href="../outputs/Snyk-tool/Atom/Reports of Vulnerability/Report_atom_script_package.pdf">Report_atom_script_package.pdf</a></p>
+                <p><a href="../outputs/Snyk-tool/Atom/Reports of Vulnerability/Report_atom_script_vsts_package.pdf">Report_atom_script_vsts_package.pdf</a></p>
+                <li>
+                    VS Code
+                </li>
+                <p><a href="../outputs/Snyk-tool/Vscode/Reports of Vulnerability/Report_vscode_extensions_handlebars_package.pdf">Report_vscode_extensions_handlebars_package.pdf</a></p>
+                <p><a href="../outputs/Snyk-tool/Vscode/Reports of Vulnerability/Report_vscode_extensions_markdown-language-features_package.pdf">Report_vscode_extensions_markdown-language-features_package.pdf</a></p>
+                <p><a href="../outputs/Snyk-tool/Vscode/Reports of Vulnerability/Report_vscode_extensions_npm_package.pdf">Report_vscode_extensions_npm_package.pdf</a></p>
+                <p><a href="../outputs/Snyk-tool/Vscode/Reports of Vulnerability/Report_vscode_extensions_sql_package.pdf">Report_vscode_extensions_sql_package.pdf</a></p>
+                <p><a href="../outputs/Snyk-tool/Vscode/Reports of Vulnerability/Report_vscode_package.pdf">Report_vscode_package.pdf</a></p>
+
+            </ul>
+        </div>
+    </section>
+    <section id="test-scripts">
+        <div class="container">
+            <h3>Tests on Atom (Homegrown+Inbuilt)</h3>
+            <ul>
+                <li><a href="../outputs/atom/testGist.html">Core Tests File</a>
+                </li>
+            </ul>
+            <script src="https://gist.github.ncsu.edu/araul/782fafda8c9e01b04425290ef9669f58.js"></script>
+            <h3>Tests on VS Code</h3>
+            <ul>
+                <li><a href="../outputs/vscode/testcases.json">Tests Output for VS Code</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="results-analysis">
+        <div class="container">
+            
+        </div>
+    </section>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.ncsu.edu/brand-assets/bootstrap/js/bootstrap.min.js">
+</script>
+<script type="text/javascript">
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+</html>

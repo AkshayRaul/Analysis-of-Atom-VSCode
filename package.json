@@ -1,0 +1,28 @@
+{
+  "name": "homeGrown",
+  "version": "1.0.0",
+  "description": "Tool for aggregating and visualising data",
+  "main": "index.js",
+  "author": "Bharat Sinha",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.13.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
