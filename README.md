@@ -1,6 +1,6 @@
 # CSC510 Software Engineering Project
 
-### Project Website: https://pages.github.ncsu.edu/bsinha2/CSC_510_c_iqopud/
+### Project Website: (https://pages.github.ncsu.edu/araul/CSC_510_c_iqopud/docs)
 
 ### Project ID: c_iqopud
 
