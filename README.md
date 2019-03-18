@@ -13,7 +13,7 @@
 
 - Clone the repo
 ```
-git clone git@github.ncsu.edu:bsinha2/CSC_510_c_iqopud.git
+git clone git@github.com:AkshayRaul/CSC_510_c_iqopud.git
 ```
 
 - move into the cloned directory
